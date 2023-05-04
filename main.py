@@ -1,4 +1,13 @@
 """
+Formatting Script for Master's Dissertation of HRBUST.
+
+1. Collect your 文献 in one bib file (mybib.bib).
+2. Run this script.
+3. Paste the output to Word.
+4. Manual check.
+
+Good luck!
+
 [2]Benkedjouh T, Medjaher K, Zerhouni N, et al. Remaining Useful Life Estimation Based on Nonlinear Feature Reduction and Support Vector Regression[J]. Engineering Applications of Artificial Intelligence, 2013, 26(7): 1751-1760.
 英文期刊文献：序号└┘作者. 文章名[J]. 学术刊物名, 出版年, 卷(期): 起止页码.
 注：作者姓先名后，多于三位加“, et al.”，文章名和期刊名中所有实词首字母大写。
@@ -6,6 +15,7 @@
 [10]Su H, Zhang X. Cognitive Radio Based Multi-channel MAC Protocols for Wireless Ad Hoc Networks[C]. IEEE Global Telecommunications Conference, Washington, D.C., USA, 2007: 4857-4861.
 学术会议文献：序号└┘作者. 文章名[C]. 会议名称, 会议地址, 年份: 引用部分起止页码.
 
+What is 期 & 卷？
 https://zhuanlan.zhihu.com/p/126249037
 """
 
