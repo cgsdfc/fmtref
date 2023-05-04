@@ -5,7 +5,10 @@
 
 [10]Su H, Zhang X. Cognitive Radio Based Multi-channel MAC Protocols for Wireless Ad Hoc Networks[C]. IEEE Global Telecommunications Conference, Washington, D.C., USA, 2007: 4857-4861.
 学术会议文献：序号└┘作者. 文章名[C]. 会议名称, 会议地址, 年份: 引用部分起止页码.
+
+https://zhuanlan.zhihu.com/p/126249037
 """
+
 import bibtexparser
 from pprint import pprint
 from pathlib import Path as P
@@ -23,6 +26,7 @@ def preprocess_string(s: str):
     """
     s = re.sub(r"[{}]", "", s)
     s = re.sub("\n", " ", s)
+    s = re.sub('--', '-', s)
     return s
 
 
@@ -72,13 +76,19 @@ def isallcap(s: str):
 
 def deal_booktitle(x: str):
     x = x.split(", ")
-    loc_list = [xx for xx in x if isallcap(xx)]
+    loc_list = x[-5:-1]
+
+    def hasdigit(s):
+        return any(map(str.isdigit, s))
+    
+    loc_list = filter(lambda x: not hasdigit(x), loc_list)
     loc_list = ", ".join(loc_list)
-    name = max(x, key=len)
+
+    name = x[0]
     return name, loc_list
 
 
-def format_entry(entry: dict, idx: int):
+def format_entry(entry: dict, idx: int=None):
     entry = {key: preprocess_string(val) for key, val in entry.items()}
 
     ENTRYTYPE = entry["ENTRYTYPE"]
@@ -88,7 +98,7 @@ def format_entry(entry: dict, idx: int):
     title = entry["title"]
     title = deal_title(title)
     year = entry["year"]
-    pages = entry["pages"]
+    pages = entry.get("pages", '')
 
     if ENTRYTYPE == "article":
         journal = entry["journal"]
@@ -112,14 +122,26 @@ def format_entry(entry: dict, idx: int):
     else:
         raise ValueError(ENTRYTYPE)
 
+    if not pages:
+        # print('NO pages', title)
+        pass
+        # res = res.rstrip(': .')
+        # res += '.'
+
+    if idx is None:
+        return res
+    
     res = f"[{idx}] {res}"
 
     return res
 
 
-def process_bibfile(bibfile: P):
-    database = bibtexparser.load(bibfile.open())
+def process_bibfile(bibfile: P, index=False):
+    database = bibtexparser.load(bibfile.open(encoding='utf8'))
+
     for idx, entry in enumerate(database.entries, 1):
+        if not index:
+            idx = None
         print(format_entry(entry, idx))
 
 
@@ -127,5 +149,5 @@ if __name__ == "__main__":
     doctest.testmod()
     # exit()
 
-    bibfile = P("conf-jnl.bib")
-    process_bibfile(bibfile)
+    bibfile = P("mybib.bib")
+    process_bibfile(bibfile, index=False)
