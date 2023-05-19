@@ -1,0 +1,40 @@
+[2] SHARMA K K, SEAL A. Multi-view spectral clustering for uncertain objects [J]. Information Sciences, 2021, 547: 723-745.
+[3] ZHANG Z, MAO J. Jointly sparse neighborhood graph for multi-view manifold clustering [J]. Neurocomputing, 2016, 216: 28-38.
+[4] ZHOU S, LIU X, LIU J, et al. Multi-View Spectral Clustering with Optimal Neighborhood Laplacian Matrix [J]. Proceedings of the AAAI Conference on Artificial Intelligence, 2020, 34(04): 6965-697KL.
+[5] LIANG Y, PAN Y, LAI H, et al. Robust multi-view clustering via inter-and-intra-view low rank fusion [J]. Neurocomputing, 2020, 385: 220-230.
+[6] HAO W, PANG S, ZHU J, et al. Self-Weighting and Hypergraph Regularization for Multi-view Spectral Clustering [J]. IEEE Signal Processing Letters, 2020, 27: 1325-1329.
+[7] ZHOU T, ZHANG C, PENG X, et al. Dual Shared-Specific Multiview Subspace Clustering [J]. IEEE Transactions on Cybernetics, 2020, 50(8): 3517-3530.
+[8] HU Z, NIE F, CHANG W, et al. Multi-view spectral clustering via sparse graph learning [J]. Neurocomputing, 2020, 384: 1-10.
+[9] XU H, ZHANG X, XIA W, et al. Low-rank tensor constrained co-regularized multi-view spectral clustering [J]. Neural Networks, 2020, 132: 245-252.
+[10] HU Z, NIE F, WANG R, et al. Multi-view spectral clustering via integrating non-negative embedding and spectral embedding [J]. Information Fusion, 2020, 55: 251-259.
+[11] REN Y, HUANG S, ZHAO P, et al. Self-paced and auto-weighted multi-view clustering [J]. Neurocomputing, 2020, 383: 248-256.
+[12] ZHOU Y, JI C, ZHANG C. A Clustering Algorithm based on Internal Constrained Multi-view K-means [C]. Proceedings of the 12th Chinese Conference on Computer Supported Cooperative Work and Social Computing, Chongqing China: ACM, 2017, 2017: 137-144.
+[13] LIU T, MARTIN G, ZHU Y, et al. Joint Robust Multi-view Spectral Clustering [J]. Neural Processing Letters, 2020, 52(3): 1843-1862.
+[14] HUANG A, ZHAO T, LIN CW. Multi-View Data Fusion Oriented Clustering via Nuclear Norm Minimization [J]. IEEE Transactions on Image Processing, 2020, 29: 9600-9613.
+[15] SHI S, NIE F, WANG R, et al. Auto-weighted multi-view clustering via spectral embedding [J]. Neurocomputing, 2020, 399: 369-379.
+[16] YAO X, HAN J, ZHANG D, et al. Revisiting Co-Saliency Detection: A Novel Approach Based on Two-Stage Multi-View Spectral Rotation Co-clustering [J]. IEEE Transactions on Image Processing, 2017, 26(7): 3196-3209.
+[17] ZHONG G, PUN CM. A Unified Framework for Multi-view Spectral Clustering [C]. 2020 IEEE 36th International Conference on Data Engineering (ICDE), Dallas, TX, USA: IEEE, 2020, 2020: 1854-1857.
+[18] MA Y, HU X, HE T, et al. Multi-view clustering microbiome data by joint symmetric nonnegative matrix factorization with Laplacian regularization [C]. 2016 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Shenzhen, China: IEEE, 2016, 2016: 625-630.
+[19] LIU X, ZHU X, LI M, et al. Late Fusion Incomplete Multi-View Clustering [J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2019, 41(10): 2410-2423.
+[20] KANG Z, SHI G, HUANG S, et al. Multi-graph fusion for multi-view spectral clustering [J]. Knowledge-Based Systems, 2020, 189: 105102.
+[21] LIU S, DING C, JIANG F, et al. Auto-weighted Multi-view learning for Semi-Supervised graph clustering [J]. Neurocomputing, 2019, 362: 19-32.
+[22] KANG Z, ZHAO X, PENG C, et al. Partition level multiview subspace clustering [J]. Neural Networks, 2020, 122: 279-288.
+[23] CHIKHI N F. Multi-view clustering via spectral partitioning and local refinement [J]. Information Processing & Management, 2016, 52(4): 618-627.
+[24] YAN X, YE Y, QIU X, et al. Synergetic information bottleneck for joint multi-view and ensemble clustering [J]. Information Fusion, 2020, 56: 15-27.
+[25] WANG L, DING S. Multi-View Spectral Clustering via ELM-AE Ensemble Features Representations Learning [J]. IEEE Access, 2020, 8: 198679-198690.
+[26] LIU J, TENG S, ZHANG W, et al. Incomplete Multi-View Subspace Clustering with Low-Rank Tensor [C]. ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP),  2021, 2021: 3180-3184.
+[27] WEN J, ZHANG Z, ZHANG Z, et al. Unified tensor framework for incomplete multi-view clustering and missing-view inferring [C]. Thirty-fifth AAAI conference on artificial intelligence, AAAI 2021, thirty-third conference on innovative applications of artificial intelligence, IAAI 2021, the eleventh symposium on educational advances in artificial intelligence, EAAI 2021, vir, AAAI Press, 2021, 2021: 10273-10281.
+[28] RAI N, NEGI S, CHAUDHURY S, et al. Partial multi-view clustering using graph regularized NMF [C]. Proceedings - international conference on pattern recognition, IEEE, 2016, 0: 2192-2197.
+[29] WEN J, SUN H, FEI L, et al. Consensus guided incomplete multi-view spectral clustering [J]. Neural Networks, 2021, 133: 207-219.
+[30] LI Z, TANG C, LIU X, et al. Tensor-Based Multi-View Block-Diagonal Structure Diffusion for Clustering Incomplete Multi-View Data [C]. 2021 IEEE International Conference on Multimedia and Expo (ICME), Shenzhen, China: IEEE, 2021, 2021: 1-6.
+[31] WANG Q, DING Z, TAO Z, et al. Generative Partial Multi-View Clustering With Adaptive Fusion and Cycle Consistency [J]. IEEE Transactions on Image Processing, 2021, 30: 1771-1783.
+[32] JIANG J, YIN J. Chunk-by-chunk incomplete multi-view clustering based on orthogonal constraints [J]. Moshi Shibie yu Rengong Zhineng/Pattern Recognition and Artificial Intelligence, 2020, 33(1): 41-49.
+[33] WANG Q, LIAN H, SUN G, et al. iCmSC: Incomplete Cross-Modal Subspace Clustering [J]. IEEE Transactions on Image Processing, 2021, 30: 305-317.
+[34] ZHAO L, ZHANG J, WANG Q, et al. Dual Alignment Self-Supervised Incomplete Multi-View Subspace Clustering Network [J]. IEEE Signal Processing Letters, 2021, 28: 2122-2126.
+[35] WEN J, ZHANG Z, XU Y, et al. Unified embedding alignment with missing views inferring for incomplete multi-view clustering [C]. 33rd AAAI conference on artificial intelligence, AAAI 2019, 31st innovative applications of artificial intelligence conference, IAAI 2019 and the 9th AAAI symposium on educational advances in artificial intelligence, EAAI 2019, AAAI Press, 2019, 33: 5393-5400.
+[36] GUO J, YE J. Anchors bring ease: An embarrassingly simple approach to partial multi-view clustering [C]. 33rd AAAI conference on artificial intelligence, AAAI 2019, 31st innovative applications of artificial intelligence conference, IAAI 2019 and the 9th AAAI symposium on educational advances in artificial intelligence, EAAI 2019, AAAI Press, 2019, 33: 118-125.
+[37] ZHUGE W, HOU C, LIU X, et al. Simultaneous representation learning and clustering for incomplete multi-view data [C]. Proceedings of the twenty-eighth international joint conference on artificial intelligence, California: International Joint Conferences on Artificial Intelligence Organization, 2019, 2019-Augus: 4482-4488.
+[38] LI P, CHEN S. Shared Gaussian Process Latent Variable Model for Incomplete Multiview Clustering [J]. IEEE Transactions on Cybernetics, 2020, 50(1): 61-73.
+[39] TAO H, HOU C, YI D, et al. Joint Embedding Learning and Low-Rank Approximation: A Framework for Incomplete Multiview Learning [J]. IEEE Transactions on Cybernetics, 2021, 51(3): 1690-1703.
+[40] LIU X, ZHU X, LI M, et al. Late Fusion Incomplete Multi-View Clustering [J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2019, 41(10): 2410-2423.
+[41] RAI P, TRIVEDI A, DAUMÉ III H, et al. Multiview clustering with incomplete views [C]. Proceedings of the NIPS workshop on machine learning for social computing, 2010, 224: 1-7.
